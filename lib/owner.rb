@@ -2,6 +2,7 @@ class Owner
   # code goes here
   
   @@all = []
+  @@count = []
   
   def initialize(name)
     @@all << self
