@@ -11,8 +11,8 @@ class Owner
     @@all
   end
   
-  def self.count
-    
+  def self.count(owner)
+    @@count << owner
   end
   
   def self.reset_all
