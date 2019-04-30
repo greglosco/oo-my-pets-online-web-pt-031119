@@ -34,5 +34,8 @@ class Owner
     @pets
   end
   
+  def buy_fish
+    
+  end
   
 end
