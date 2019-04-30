@@ -35,7 +35,7 @@ class Owner
   end
   
   def buy_fish(fish)
-    :fishes << fish
+    pets[fishes] = fish
   end
   
 end
