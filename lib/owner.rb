@@ -1,6 +1,8 @@
 class Owner
   # code goes here
   
+  attr_accessor :name, :species
+  
   @@all = []
   @@count = []
   
@@ -18,7 +20,7 @@ class Owner
   end
   
   def self.reset_all
-  
+    @@count.clear
   end
   
 end
