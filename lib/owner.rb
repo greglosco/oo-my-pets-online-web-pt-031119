@@ -10,6 +10,7 @@ class Owner
   def initialize(name)
     @@all << self
     @@count << self
+    @species
   end
   
   def self.all 
