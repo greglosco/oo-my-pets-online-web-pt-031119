@@ -1,8 +1,8 @@
 class Owner
   # code goes here
   
-  attr_accessor :name, :mood
-  attr_reader :species,
+  attr_accessor :name, :fish, :cat, :dog
+  attr_reader :species
   
   @@all = []
   @@count = []
