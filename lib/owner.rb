@@ -1,7 +1,7 @@
 class Owner
   # code goes here
   
-  attr_accessor :name, :fish, :cat, :dog,
+  attr_accessor :name, :fish, :cat, :dog
   attr_reader :species
   
   @@all = []
@@ -55,7 +55,7 @@ class Owner
   end
   
   def feed_fish
-    Fish.mood = "happy"
+    Dog.mood = "happy"
   end
   
   
